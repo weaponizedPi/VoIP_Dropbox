@@ -14,7 +14,7 @@ The following config files are provided to reproduce the VoIP Dropbox attack det
 
 - hostapd.conf
 
-   This is the configuration file used to create the accesspoint after boot. ssid=test and it uses WPA2 encryption, wpa_passphrase=testtest .. change as needed.  Also, I configured the AP to not broadcast the access point by setting ignore_broadcast_ssid=1. 
+   This is the configuration file used to create the accesspoint after boot. ssid=test and it uses WPA2 encryption, wpa_passphrase=testtest .. change as needed.  Also, I configured the AP to not broadcast the access point by setting ignore_broadcast_ssid=0. 
    
 - Startup.sh
 
