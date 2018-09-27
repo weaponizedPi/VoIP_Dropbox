@@ -5,6 +5,7 @@ The following config files are provided to reproduce the VoIP Dropbox attack det
 
 # Requirements
 - Kali Linux for Raspberry Pi Zer0 W - https://images.offensive-security.com/arm-images/kali-linux-2018.3-rpi0w-nexmon.img.xz
+- Cisco Lockbox With Key - https://www.amazon.com/Cisco-Locking-Wallmount-7900-Phones/dp/B000H34VKU
 - USB Ethernet adapter - https://www.amazon.com/Plugable-Micro-B-Ethernet-Raspberry-AX88772A/dp/B00RM3KXAU
 - USB POE Adapter - https://www.amazon.com/UCTRONICS-802-3af-Splitter-Ethernet-Raspberry/dp/B01MDLUSE7
 - Hostapd - apt-get install hostapd
