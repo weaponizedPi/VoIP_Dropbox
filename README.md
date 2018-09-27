@@ -13,9 +13,11 @@ The following config files are provided to reproduce the VoIP Dropbox attack det
 # Config
 
 - hostapd.conf
+
    This is the configuration file used to create the accesspoint after boot. ssid=test and it uses WPA2 encryption, wpa_passphrase=testtest .. change as needed.  Also, I configured the AP to not broadcast the access point by setting ignore_broadcast_ssid=1. 
    
 - Startup.sh
+
   This file will be called by /etc/rc.local during boot and will do the following things: 
   1. Disable network-manager
   2. Create a mon0 interface required for hostapd to run on the PiZeroW (dont ask me why...) 
